@@ -1,15 +1,15 @@
-# seabo-cli
+# seabo-cli-service
 
 ## Usage
 
 #### build
 
 ```
-$ seabo build
+$ seabo-cli-service build
 ```
 
 #### dev
 
 ```
-$ seabo dev
+$ seabo-cli-service dev
 ```
