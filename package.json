@@ -53,5 +53,9 @@
   "license": "ISC",
   "engines": {
     "node": ">=8"
+  },
+  "devDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
 }
