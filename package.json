@@ -8,6 +8,8 @@
     "seabo-cli-service": "bin/seabo-cli-service.js"
   },
   "scripts": {
+    "build": "bin/seabo-cli-service build",
+    "serve": "bin/seabo-cli-service serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -43,6 +45,7 @@
     "webpack": "^4.10.2",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2",
+    "webpack-serve": "^1.0.4",
     "yargs": "^11.0.0"
   },
   "keywords": [
