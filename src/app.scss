@@ -1,3 +1,7 @@
 .app {
   font-size: 20px;
+  h1 {
+    background: blue;
+    transition: all 1s;
+  }
 }
