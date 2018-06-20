@@ -34,3 +34,5 @@ $ ./bin/seabo-cli-service build
 2. 将public中的文件copy到编译后的dist中(index.hbs)除外
 3. file-loader/url-loader检查(js中/css中)
 4. 暴露seabo-cli-service serve 时 port/host的配置
+5. react hot loading
+6. 添加dva
