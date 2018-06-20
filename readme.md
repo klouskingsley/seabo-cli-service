@@ -11,7 +11,21 @@ $ seabo-cli-service build
 #### dev
 
 ```
-$ seabo-cli-service dev
+$ seabo-cli-service serve
+```
+
+## example
+
+dev
+
+```
+$ ./bin/seabo-cli-service serve
+```
+
+build
+
+```
+$ ./bin/seabo-cli-service build
 ```
 
 
