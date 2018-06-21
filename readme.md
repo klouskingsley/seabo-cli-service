@@ -50,3 +50,6 @@ $ ./bin/seabo-cli-service.js build
 13. serve/build编译时的eslint
 14. serve编译时产生错误无法进行下去时，将错误栈显示到浏览器中
 15. serve/build 进度显示(xhw)
+
+## TODO3
+1. 单元测试
