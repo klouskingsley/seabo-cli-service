@@ -38,7 +38,7 @@ $ ./bin/seabo-cli-service.js build
 6. ~~添加dva(xhw)~~
 7. babel plugin的完善及单独做成preset(wyf)
 10. ~~css 单独分离(wyf)~~
-11. vendor 分离(wyf)
+11. ~~vendor 分离(xhw)~~
 
 ## TODO2
 
