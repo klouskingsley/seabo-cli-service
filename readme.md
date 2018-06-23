@@ -51,6 +51,7 @@ $ ./bin/seabo-cli-service.js build
 14. serve编译时产生错误无法进行下去时，将错误栈显示到浏览器中
 15. serve/build 进度显示(xhw)
 16. publicPath和baseUrl的处理
+17. build之前删除dist
 
 ## TODO3
 1. 单元测试
