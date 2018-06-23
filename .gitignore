@@ -16,3 +16,6 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+seabo.config.local.js
+seabo.config.*.local.js
