@@ -32,7 +32,7 @@ $ ./bin/seabo-cli-service.js build
 ~~1. postcss: 默认的postcss config处理(wyf)~~
   - 检测项目中是否含postcss配置，如果有就使用(xhw)
   - ~~css modules(wyf)~~
-2. 将public中的文件copy到编译后的dist中(index.hbs)除外(xhw)
+2. ~~将public中的文件copy到编译后的dist中(index.hbs)除外(xhw)~~
 3. ~~file-loader/url-loader检查(js中/css中) (xhw)~~
 5. react hot loading
 6. ~~添加dva(xhw)~~
