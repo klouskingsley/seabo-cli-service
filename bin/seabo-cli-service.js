@@ -22,10 +22,12 @@ program
   .description('start webpack dev server')
   .option('-p, --port <port>', 'Set webpack serve port', parseInt)
   .option('--host <host>', 'Set webpack serve host')
+  .option('--https', 'Use webpack serve https')
   .action((args) => {
     const cliArgs = {
       port: args.port,
-      host: args.host
+      host: args.host,
+      https: args.https
     }
     service.run('serve', { cliArgs })
   })
@@ -34,9 +36,11 @@ program
   .command('build')
   .description('build for production')
   .option('-w --watch', 'Use webpack watch mode')
+  .option('--compress', 'Compress, default true')
   .action((args) => {
     const cliArgs = {
-      watch: args.watch
+      watch: args.watch,
+      compress: args.compress
     }
     service.run('build', { cliArgs })
   })
