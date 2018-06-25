@@ -42,16 +42,16 @@ $ ./bin/seabo-cli-service.js build
 
 ## TODO2
 
-1. seabo-cli-service build时的进度及loading (xhw)
+1. ~~seabo-cli-service build时的进度及loading (xhw)~~
 4. 暴露seabo-cli-service serve 时 port/host的配置
 8. 暴露api proxy
 9. 暴露alias配置
 10. definePlugin 配置、环境变量配置
 13. serve/build编译时的eslint
 14. serve编译时产生错误无法进行下去时，将错误栈显示到浏览器中
-15. serve/build 进度显示(xhw)
+15. ~~serve/build 进度显示(xhw)~~
 16. publicPath和baseUrl的处理
-17. build之前删除dist
+17. ~~uild之前删除dist~~
 18. babel cache-loader, thread-loader
 
 ## TODO3
@@ -77,30 +77,49 @@ mode
 dest
 target
 name
-watch
+~~watch~~
+~~nocompress~~
 
 
 - config
 
 serviceWorker 是否开启serviceWorker
+
 dynamicImport 是否开启dynamic
+
 outputPath/outputDir 文件输出路径 默认dist
+
 define webpack definePlugin变量
+
 externals webpack external属性
+
 alias webpack alias属性
+
 browserslist babel-preset-env和autoprefixer的browserlist属性
+
 publicPath
+
 devtool
+
 proxy
+
 es5ImcompatibleVersions/transpileDependencies node_modules下需要通过babel-loader处理的包
+
 webpackServe
+
 baseUrl
+
 pwa
+
 productionSourceMap
+
 html htmlwebpackPlugin配置
+
 env NODE中process.env环境变量SEABO_APP_开头的会被definePlugin，如
 
 
 vue.config.js
+
 vue.config.[mode].js
+
 vue.config.local.js
