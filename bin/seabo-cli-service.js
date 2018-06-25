@@ -36,11 +36,11 @@ program
   .command('build')
   .description('build for production')
   .option('-w --watch', 'Use webpack watch mode')
-  .option('--compress', 'Compress, default true')
+  .option('--nocompress', 'Disable Compress')
   .action((args) => {
     const cliArgs = {
       watch: args.watch,
-      compress: args.compress
+      compress: !args.nocompress
     }
     service.run('build', { cliArgs })
   })
