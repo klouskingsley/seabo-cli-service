@@ -107,7 +107,7 @@ es5ImcompatibleVersions/transpileDependencies node_modules下需要通过babel-l
 
 webpackServe
 
-baseUrl
+baseUrl // publicPath
 
 pwa
 
