@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+import qs from 'query-string'
 
 import './app.css'
 import './app.less'
@@ -8,6 +9,9 @@ import style2 from './app.styls'
 
 import logo from './logo.png'
 import bigSizeImg from './bigsize.png'
+
+// test es5ImcompatiableNodeModules
+qs.stringify({a: 1, b: 2})
 
 const App = () => (
   <div className={style.app}>

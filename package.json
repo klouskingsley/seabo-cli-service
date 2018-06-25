@@ -45,6 +45,7 @@
     "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^1.2.6",
     "url-loader": "^1.0.1",
     "webpack": "^4.10.2",
     "webpack-merge": "^4.1.2",
@@ -62,6 +63,7 @@
   },
   "devDependencies": {
     "dva": "^2.3.1",
+    "query-string": "^6.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   }
