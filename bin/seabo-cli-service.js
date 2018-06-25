@@ -20,15 +20,25 @@ program
 program
   .command('serve')
   .description('start webpack dev server')
-  .action(() => {
-    service.run('serve')
+  .option('-p, --port <port>', 'Set webpack serve port', parseInt)
+  .option('--host <host>', 'Set webpack serve host')
+  .action((args) => {
+    const cliArgs = {
+      port: args.port,
+      host: args.host
+    }
+    service.run('serve', { cliArgs })
   })
 
 program
   .command('build')
   .description('build for production')
-  .action(() => {
-    service.run('build')
+  .option('-w --watch', 'Use webpack watch mode')
+  .action((args) => {
+    const cliArgs = {
+      watch: args.watch
+    }
+    service.run('build', { cliArgs })
   })
 
 program.parse(process.argv)
