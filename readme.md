@@ -45,13 +45,13 @@ $ ./bin/seabo-cli-service.js build
 
 1. ~~seabo-cli-service build时的进度及loading (xhw)~~
 4. ~~暴露seabo-cli-service serve 时 port/host的配置~~
-8. 暴露api proxy
-9. 暴露alias配置
-10. definePlugin 配置、环境变量配置
+8. ~~暴露api proxy~~
+9. ~~暴露alias配置~~
+10. ~~definePlugin 配置~~
 13. serve/build编译时的eslint
 14. serve编译时产生错误无法进行下去时，将错误栈显示到浏览器中
 15. ~~serve/build 进度显示(xhw)~~
-16. publicPath和baseUrl的处理
+16. ~~publicPath和baseUrl的处理~~
 17. ~~uild之前删除dist~~
 18. babel cache-loader, thread-loader
 
