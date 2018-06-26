@@ -25,8 +25,7 @@ program
   .action((args) => {
     const cliArgs = {
       port: args.port,
-      host: args.host,
-      https: args.https
+      host: args.host
     }
     service.run('serve', { cliArgs })
   })
