@@ -36,7 +36,7 @@ $ ./bin/seabo-cli-service.js build
 3. ~~file-loader/url-loader检查(js中/css中) (xhw)~~
 5. react hot loading
 6. ~~添加dva(xhw)~~
-7. babel plugin的完善及单独做成preset(wyf)
+7. ~~babel plugin的完善及单独做成preset(wyf)~~
 10. ~~css 单独分离(wyf)~~
 11. ~~vendor 分离(xhw)~~
 12. uglify-es压缩es6+时抛出错误
@@ -44,7 +44,7 @@ $ ./bin/seabo-cli-service.js build
 ## TODO2
 
 1. ~~seabo-cli-service build时的进度及loading (xhw)~~
-4. 暴露seabo-cli-service serve 时 port/host的配置
+4. ~~暴露seabo-cli-service serve 时 port/host的配置~~
 8. 暴露api proxy
 9. 暴露alias配置
 10. definePlugin 配置、环境变量配置
