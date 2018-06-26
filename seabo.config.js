@@ -11,9 +11,6 @@ module.exports = {
   es5ImcompatibleNodeModules: [],
 
   webpack: {
-    output: {
-      publicPath: '//static.mudu.tv/'
-    },
     resolve: {
 
       // 路径别名
@@ -25,7 +22,7 @@ module.exports = {
 
   // webpack-serve 配置
   serve: {
-
+    port: 8080
   },
 
 
