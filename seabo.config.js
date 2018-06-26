@@ -11,6 +11,9 @@ module.exports = {
   es5ImcompatibleNodeModules: [],
 
   webpack: {
+    output: {
+      publicPath: '//static.mudu.tv/'
+    },
     resolve: {
 
       // 路径别名
