@@ -8,7 +8,10 @@ module.exports = {
   browserslist: [],
 
   // node_modules下需要经过babel的包
-  es5ImcompatibleNodeModules: [],
+  es5ImcompatibleNodeModules: [
+    'query-string',
+    'object-assign'
+  ],
 
   webpack: {
     resolve: {
