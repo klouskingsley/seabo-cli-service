@@ -66,6 +66,7 @@
     "node": ">=8"
   },
   "devDependencies": {
+    "antd": "^3.6.4",
     "dva": "^2.3.1",
     "query-string": "^6.1.0",
     "react": "^16.4.1",

@@ -32,5 +32,13 @@ module.exports = {
   // html-webpack-plugin 配置
   html: {
 
+  },
+
+
+  babel: {
+    extraPlugins: [
+      ["babel-plugin-import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ],
+    extraPresets: [],
   }
 }
