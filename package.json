@@ -39,6 +39,7 @@
     "node-notifier": "^5.2.1",
     "node-sass": "^4.9.0",
     "ora": "^2.1.0",
+    "pify": "^3.0.0",
     "postcss-loader": "^2.1.5",
     "progress-bar-webpack-plugin": "^1.11.0",
     "rimraf": "^2.6.2",
