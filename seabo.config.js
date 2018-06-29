@@ -9,8 +9,7 @@ module.exports = {
 
   // node_modules下需要经过babel的包
   es5ImcompatibleNodeModules: [
-    'query-string',
-    'object-assign'
+    'query-string'
   ],
 
   webpack: {
@@ -25,7 +24,8 @@ module.exports = {
 
   // webpack-serve 配置
   serve: {
-    port: 8080
+    open: true,
+    port: 8000
   },
 
 
