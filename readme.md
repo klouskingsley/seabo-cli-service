@@ -125,3 +125,6 @@ module.exports = {
 
 - 多页的支持
 - test
+
+
+## 最后欢迎在issue和merge request提各种意见与建议
