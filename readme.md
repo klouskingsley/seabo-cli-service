@@ -123,7 +123,8 @@ module.exports = {
 
 ## TODO
 
-- 多页的支持
+- 多页的支持 (在react-dva-spa中做支持)
+- pwa支持
 - test
 
 
