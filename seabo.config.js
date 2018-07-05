@@ -31,7 +31,8 @@ module.exports = {
 
   // html-webpack-plugin 配置
   html: {
-
+    template: './public/ap.hbs',
+    filename: 'ap.html',
   },
 
 
