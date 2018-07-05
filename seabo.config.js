@@ -13,6 +13,9 @@ module.exports = {
   ],
 
   webpack: {
+    // entry: {
+    //   app: './src/app2.js'
+    // },
     resolve: {
 
       // 路径别名

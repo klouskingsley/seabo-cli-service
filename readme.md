@@ -84,6 +84,9 @@ seabo.config.\*.local.js > seabo.config.local.js > seabo.config.\*.js > seabo.co
 
 ```js
 module.exports = {
+  entry: {
+    app: './src/app.js'
+  }
 
   // webpack.definePlugin的配置
   define: {},
