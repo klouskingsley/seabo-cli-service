@@ -16,7 +16,7 @@
   "dependencies": {
     "@babel/core": "^7.0.0-beta.51",
     "babel-loader": "^8.0.0-beta.3",
-    "babel-preset-seabo": "https://gitee.com/xharry/babel-preset-seabo.git",
+    "babel-preset-seabo": "*",
     "cache-loader": "^1.2.2",
     "case-sensitive-paths-webpack-plugin": "^2.1.2",
     "chalk": "^2.4.1",
