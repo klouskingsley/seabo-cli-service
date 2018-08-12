@@ -26,10 +26,6 @@ seabo-cli-service是一个react项目的cli打包工具，里面封装了webpack
 中都拷贝一份`webpack.config.js`，拷贝起来虽然很方便，但是后期维护就比较困难了。假如我们想要给每个项目
 都加上pwa的支持或是修复某个bug，可能需要给每个项目都来一次升级。
 
-
-这也就是为什么要写这个工具，这个工具仅仅是对webpack进行了很浅的一层封装，里面的东西
-都由自己control，同时开发人员也不用关注一系列复杂的配置，更不用担心工具的升级维护问题。
-
 ## 工具的结构
 
 工具copy了`vue-cli-service`的结构，所有代码都在`lib`和`bin`文件夹下。
@@ -37,6 +33,12 @@ seabo-cli-service是一个react项目的cli打包工具，里面封装了webpack
 
 工具的原理就是根据用户的配置(seabo.config.js)和执行的命令(serve和build)，
 来拼接一个`webpack.config`，并运行webpack。
+
+## 安装
+
+```
+npm i -D seabo-cli-service
+```
 
 ## 用法
 

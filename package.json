@@ -12,10 +12,7 @@
     "serve": "bin/seabo-cli-service serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@gitee.com:xharry/seabo.git"
-  },
+  "repository": "klouskingsley/seabo-cli-service",
   "dependencies": {
     "@babel/core": "^7.0.0-beta.51",
     "babel-loader": "^8.0.0-beta.3",
@@ -64,13 +61,5 @@
   "license": "ISC",
   "engines": {
     "node": ">=8"
-  },
-  "devDependencies": {
-    "antd": "^3.6.4",
-    "babel-plugin-import": "^1.8.0",
-    "dva": "^2.3.1",
-    "query-string": "^6.1.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
   }
 }
